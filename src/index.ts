@@ -164,6 +164,9 @@ export default {
                 if (e.statusCode === 401)
                     response.headers.append("WWW-Authenticate", `Basic realm="${REALM}", charset="UTF-8"`)
                 return response
+            }else if (e instanceof SyntaxError) {
+                // for handling cookie schema changes
+                return withDeletingCookies(createCustomResponse(500, "An unexpected error has occurred! Please try again later."))
             }
             throw e;
         }
