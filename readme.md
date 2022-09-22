@@ -1,4 +1,5 @@
-[![CodeQL](https://github.com/beykansen/sesssion-authentication-worker/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/beykansen/sesssion-authentication-worker/actions/workflows/codeql-analysis.yml)
+[![CodeQL](https://github.com/beykansen/session-authentication-worker/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/beykansen/session-authentication-worker/actions/workflows/codeql-analysis.yml)
+[![Codespaces Prebuilds](https://github.com/beykansen/session-authentication-worker/actions/workflows/codespaces/create_codespaces_prebuilds/badge.svg)](https://github.com/beykansen/session-authentication-worker/actions/workflows/codespaces/create_codespaces_prebuilds)
 
 # Cloudflare Session Authentication Worker
 

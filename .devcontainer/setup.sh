@@ -5,6 +5,8 @@ apt-get install -y \
   git \
   gnupg2 \
   jq \
+  nano \
+  htop \
   sudo
 
 # set-up and install yarn

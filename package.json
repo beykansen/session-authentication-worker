@@ -1,5 +1,5 @@
 {
-  "name": "sesssion-authentication-worker",
+  "name": "session-authentication-worker",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
